@@ -1,6 +1,7 @@
 # ASX Automation
 
 ASX Automation is a Python tool that downloads ASX announcement files for one or more companies. It supports both CLI usage and MCP tool-calling.
+**This works for opencode and Github Copilot with little to no additional configurations.**
 
 ## Features
 
