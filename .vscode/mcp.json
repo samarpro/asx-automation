@@ -1,0 +1,23 @@
+{
+	"servers": {
+		"fetch": {
+			"command": "uvx",
+			"args": [
+				"mcp-server-fetch"
+			],
+			"type": "stdio"
+		},
+		"asx-announcements": {
+			"type": "stdio",
+			"command": "./.venv/bin/asx-mcp",
+			"args": [
+				"--mcp"
+			]
+		}
+	},
+	"inputs": [
+		{
+			"type": "promptString"
+		}
+	]
+}

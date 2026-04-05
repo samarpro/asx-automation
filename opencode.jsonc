@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "asx-downloader": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "./.venv/bin/asx-mcp",
+        "--mcp"
+      ]
+
+    }
+  }
+}
